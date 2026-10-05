@@ -1,6 +1,6 @@
 # Backend · Первое задание
 
-<img src=".github/assets/stack.svg" height="28" alt="Python · pytest · Learning" />
+<a href=".github/assets/light/stack.svg#gh-light-mode-only"><img src=".github/assets/light/stack.svg" height="28" alt="Python · pytest · Learning" /></a><a href=".github/assets/stack.svg#gh-dark-mode-only"><img src=".github/assets/stack.svg" height="28" alt="Python · pytest · Learning" /></a>
 
 Минимальный Python-проект для знакомства с GitHub и автоматическими проверками.
 
