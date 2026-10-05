@@ -1,111 +1,57 @@
-# backend_test_homework
+<p align="center">
+  <img src=".github/assets/banner.svg" width="100%" alt="Backend · Первое задание" />
+</p>
 
-**[English](#english)** | **[Русский](#русский)**
+# Backend · Первое задание
 
----
+Минимальный Python-проект для знакомства с GitHub и автоматическими проверками.
+
+**Учебный проект** · Python · pytest  
+[Русский](#about) · [English](#english) · [Профиль](https://github.com/artemleonich)
+
+<a id="about"></a>
+
+## О проекте
+
+Вводное задание курса бэкенд-разработки на Python от [Яндекс Практикума](https://practicum.yandex.ru/). Решение — скрипт `program.py`, который выводит сообщение «Я домашка».
+
+Репозиторий основан на [yandex-praktikum/backend_test_homework](https://github.com/yandex-praktikum/backend_test_homework). Цель задания — освоить форк репозитория, добавить запускаемый скрипт и пройти проверку.
+
+## Запуск
+
+```bash
+git clone https://github.com/artemleonich/backend_test_homework.git
+cd backend_test_homework
+python3 program.py
+```
+
+Для тестов установите pytest в отдельное окружение:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install pytest
+python -m pytest
+```
+
+В Windows PowerShell окружение активируется командой `.venv\Scripts\Activate.ps1`.
+
+## Что проверяют тесты
+
+`test_program.py` проверяет наличие `program.py` и `README.md` в корне репозитория, затем импортирует скрипт. Это небольшое вводное упражнение; отдельного приложения и внешних зависимостей для самого скрипта нет.
 
 <a id="english"></a>
 
-## English
+<details>
+<summary>English overview</summary>
 
-### Description
+An introductory exercise from the [Yandex Practicum](https://practicum.yandex.ru/) backend Python course, based on [yandex-praktikum/backend_test_homework](https://github.com/yandex-praktikum/backend_test_homework). The script prints a short message; the test checks the required files and imports the script successfully.
 
-A test homework assignment from the [Yandex Practicum](https://practicum.yandex.ru/) backend Python development course. The repository is forked from [yandex-praktikum/backend_test_homework](https://github.com/yandex-praktikum/backend_test_homework).
+Run `python3 program.py`. Install pytest in a virtual environment and run `python -m pytest` for the automated check. This is a small learning exercise.
 
-The task is to fork the repository, write a Python script (`program.py`) that runs without errors, and make sure all automated tests pass.
-
-### Project Structure
-
-```
-backend_test_homework/
-├── .gitignore          — Git ignore rules
-├── README.md           — Project documentation
-├── program.py          — Main script (homework solution)
-├── pytest.ini          — Pytest configuration
-└── test_program.py     — Automated tests
-```
-
-### How It Works
-
-- `program.py` — the main script that prints a message to the console.
-- `test_program.py` — automated tests that verify:
-  - `program.py` and `README.md` exist in the repository root.
-  - `program.py` runs without errors.
-- `pytest.ini` — Pytest configuration with verbose output.
-
-### Requirements
-
-- Python 3.x
-- pytest
-
-### Running
-
-Run the script:
-
-```bash
-python program.py
-```
-
-Run the tests:
-
-```bash
-pytest
-```
-
-### Author
-
-[Artem Leonov](https://github.com/artemleonich)
+</details>
 
 ---
 
-<a id="русский"></a>
+Автор: [Артём Леонов](https://github.com/artemleonich).
 
-## Русский
-
-### Описание
-
-Тестовое домашнее задание курса бэкенд-разработки на Python от [Яндекс Практикума](https://practicum.yandex.ru/). Репозиторий форкнут из [yandex-praktikum/backend_test_homework](https://github.com/yandex-praktikum/backend_test_homework).
-
-Задание: форкнуть репозиторий, написать Python-скрипт (`program.py`), который запускается без ошибок, и убедиться, что все автоматические тесты проходят.
-
-### Структура проекта
-
-```
-backend_test_homework/
-├── .gitignore          — Правила игнорирования для Git
-├── README.md           — Документация проекта
-├── program.py          — Основной скрипт (решение задания)
-├── pytest.ini          — Конфигурация Pytest
-└── test_program.py     — Автоматические тесты
-```
-
-### Как это работает
-
-- `program.py` — основной скрипт, выводящий сообщение в консоль.
-- `test_program.py` — автоматические тесты, которые проверяют:
-  - Наличие файлов `program.py` и `README.md` в корне репозитория.
-  - Запуск `program.py` без ошибок.
-- `pytest.ini` — конфигурация Pytest с подробным выводом.
-
-### Требования
-
-- Python 3.x
-- pytest
-
-### Запуск
-
-Запуск скрипта:
-
-```bash
-python program.py
-```
-
-Запуск тестов:
-
-```bash
-pytest
-```
-
-### Автор
-
-[Артём Леонов](https://github.com/artemleonich)
