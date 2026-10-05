@@ -1,12 +1,10 @@
-<p align="center">
-  <img src=".github/assets/banner.svg" width="100%" alt="Backend · Первое задание" />
-</p>
-
 # Backend · Первое задание
+
+<img src=".github/assets/stack.svg" height="28" alt="Python · pytest · Learning" />
 
 Минимальный Python-проект для знакомства с GitHub и автоматическими проверками.
 
-**Учебный проект** · Python · pytest  
+**Учебный проект**  
 [Русский](#about) · [English](#english) · [Профиль](https://github.com/artemleonich)
 
 <a id="about"></a>
